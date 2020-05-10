@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Yeon+Sung&display=swap');
+
+body{
+    font-family: 'Rokkitt', cursive !important;;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.section{
+    height: 100vh;
+    background: linear-gradient(-45deg, lightgray, white, lightgray);
+}
+
+.hero-section{
+    padding: 8% 0;
+}
+.menu-action{
+    cursor: pointer;
+}
+.hero-text{
+    margin: 50px;
+}
+.menu-item-container{
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.menu-item{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fa-camera{
+    font-size: 0.5em;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+  
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
