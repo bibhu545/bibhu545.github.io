@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt|Yeon+Sung&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 
 body{
     font-family: 'Rokkitt', cursive !important;;
@@ -39,6 +40,46 @@ body{
     top: -10px;
     cursor: pointer;
 }
+.menu-action a{
+    text-decoration: none;
+}
+.my-img{
+    height: 110px;
+    width: 75px;
+    border-radius: 5px;
+}
+.tooltip  .tooltip-inner {
+    background-color: #fff; 
+    border: 1px solid royalblue;
+    padding: 0px;
+    border-radius: 5px;
+    color: royalblue;
+}
+.tooltip.right  .tooltip-arrow {
+    border-right: 50% solid black;
+    background-color: #fff; 
+}
+
+.side-nav-item-desc{
+    padding: 5px;
+}
+
+.side-nav{
+    display: inline;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 10px;
+}
+.side-menu-item{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

@@ -7,20 +7,23 @@
     <title>Bibhu Ranjan's Portfolio</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
 
-    <section class="section hero-section">
+    <section class="section hero-section" id="heroSection">
         <div class="container">
             <div class="row">
                 <div class="col-12 center-content">
                     <div class="hero-text">
                         <h2>
-                            Hello, I am <span class="text-primary">B</span>ibhu <span class="text-primary">R</span>anjan. 
-                            <i class="fa fa-camera text-primary" aria-hidden="true"></i>
+                            Hello, I am <span class="text-primary">B</span>ibhu <span
+                                class="text-primary">R</span>anjan.
+                            <i class="fa fa-camera text-primary" aria-hidden="true" data-toggle="tooltip"
+                                data-placement="right" data-html="true"
+                                title="<img src='./images/pic.jpg' alt='me' class='my-img'>"></i>
+
                         </h2>
                         <h3>
                             Welcome to my Desktop.
@@ -34,56 +37,89 @@
                     <div class="menu-item-container">
                         <img src="./images/menu-about.svg" alt="menu-about" class="menu-item">
                     </div>
-                    <h5 class="menu-action text-primary">About</h5>
+                    <h5 class="menu-action text-primary"><a href="#aboutSection">About</a></h5>
                 </div>
                 <div class="col-2">
                     <div class="menu-item-container">
                         <img src="./images/menu-resume.svg" alt="menu-resume" class="menu-item">
                     </div>
-                    <h5 class="menu-action text-primary">Resume</h5>
+                    <h5 class="menu-action text-primary"><a href="#resumeSection">Resume</a></h5>
                 </div>
                 <div class="col-1">
                     <div class="menu-item-container">
                         <img src="./images/menu-portfolio.svg" alt="menu-portfolio" class="menu-item">
                     </div>
-                    <h5 class="menu-action text-primary">Projects</h5>
+                    <h5 class="menu-action text-primary"><a href="#portSection">Projects</a></h5>
                 </div>
                 <div class="col-1">
                     <div class="menu-item-container">
                         <img src="./images/menu-blog.svg" alt="menu-blog" class="menu-item">
                     </div>
-                    <h5 class="menu-action text-primary">Blog</h5>
+                    <h5 class="menu-action text-primary"><a href="#blogSection">Blog</a></h5>
                 </div>
                 <div class="col-1">
                     <div class="menu-item-container">
                         <img src="./images/menu-contacts-2.svg" alt="menu-contact" class="menu-item">
                     </div>
-                    <h5 class="menu-action text-primary">Contact</h5>
+                    <h5 class="menu-action text-primary"><a href="#contactSection">Contact</a></h5>
                 </div>
                 <div class="col-3"></div>
             </div>
         </div>
     </section>
 
-    <section class="section about-section">
+    <section class="section about-section" id="aboutSection">
 
     </section>
 
-    <section class="section skills-section">
+    <section class="section resume-section" id="resumeSection">
 
     </section>
 
-    <section class="section port-section">
+    <section class="section port-section" id="portSection">
 
     </section>
 
-    <section class="section contact-section">
+    <section class="section port-section" id="blogSection">
 
     </section>
+
+    <section class="section contact-section" id="contactSection">
+
+    </section>
+
+    <div class="side-nav" id="sideNav">
+        <a href="#aboutSection" class="side-nav-item">
+            <img src="./images/menu-about.svg" alt="side-menu-item" class="side-menu-item" data-toggle="tooltip"
+                data-placement="right" data-html="true" title="<span class='side-nav-item-desc'>About</span>">
+        </a>
+        <br />
+        <a href="#resumeSection" class="side-nav-item">
+            <img src="./images/menu-resume.svg" alt="side-menu-item" class="side-menu-item" data-toggle="tooltip"
+                data-placement="right" data-html="true" title="<span class='side-nav-item-desc'>Resume</span>">
+        </a>
+        <br />
+        <a href="#portSection" class="side-nav-item">
+            <img src="./images/menu-port-2.svg" alt="side-menu-item" class="side-menu-item" data-toggle="tooltip"
+                data-placement="right" data-html="true" title="<span class='side-nav-item-desc'>Projects</span>">
+        </a>
+        <br />
+        <a href="#blogSection" class="side-nav-item">
+            <img src="./images/menu-blog.svg" alt="side-menu-item" class="side-menu-item" data-toggle="tooltip"
+                data-placement="right" data-html="true" title="<span class='side-nav-item-desc'>Blog</span>">
+        </a>
+        <br />
+        <a href="#contactSection" class="side-nav-item">
+            <img src="./images/menu-contacts-2.svg" alt="side-menu-item" class="side-menu-item" data-toggle="tooltip"
+                data-placement="right" data-html="true" title="<span class='side-nav-item-desc'>Contact</span>">
+        </a>
+        <br />
+    </div>
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
