@@ -33,6 +33,10 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
+    transition: transform 0.5s;
+}
+.menu-item:hover {
+    transform: scale(1.05);
 }
 .fa-camera{
     font-size: 0.5em;
@@ -50,7 +54,7 @@ body{
 }
 .tooltip  .tooltip-inner {
     background-color: #fff; 
-    border: 1px solid royalblue;
+    border: 1px solid gray;
     padding: 0px;
     border-radius: 5px;
     color: royalblue;
@@ -76,6 +80,20 @@ body{
     height: 50px;
     width: 50px;
     margin: 5px;
+}
+.animation {
+    overflow: hidden;
+    position: relative;
+}
+
+.paper-plane {
+    position: absolute;
+    width: 6.5rem;
+    top: 50%;
+    left: -6.5rem;
+}
+.ScrollSceneIndicators {
+    display: none !important;
 }
 
 
